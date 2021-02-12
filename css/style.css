@@ -1,0 +1,695 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* navbar section starts here*/
+.nav_ul {
+    margin-top: 13px;
+}
+
+.logo {
+    margin-top: 40px;
+}
+
+.nav_ul>li {
+    font-size: 16px;
+}
+/* navbar section ends here*/
+
+
+/* hero section starts here*/
+.headingh1 {
+    padding-top: 185px;
+    color: #ffffff;
+}
+
+.heading {
+    color: blue;
+}
+
+.hero_section {
+    height: 630px;
+    background-image: url(../images/bg_hero.jpg);
+    background-size: cover;
+}
+
+
+/* hero section ends here*/
+
+/* about us section starts here*/
+
+.abt-us-section {
+    margin-bottom: 100px;
+}
+
+.heading2_box {
+    padding-top: 135px;
+}
+
+.about_us_box {
+    margin-top: 121px;
+}
+
+.headingh2 {
+    line-height: 1.4;
+    color: #e70304;
+    letter-spacing: 1px;
+}
+
+.heading-box {
+    border-style: solid;
+    border-color: #f8c02b;
+    padding-left: 25px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 5px;
+}
+
+.about_us_content>p {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: .05px;
+}
+
+.learn_more_btn {
+    border-radius: 0px 0px 0px 0px;
+    background-color: transparent;
+    border-color: #e40404;
+    border-width: 2px;
+    color: #e40404;
+    margin-top: 60px;
+}
+
+.rectangle {
+    width: 0px;
+    height: 0px;
+    border-top: 336px solid #f9c12c;
+    border-left: 300px solid transparent;
+    position: absolute;
+    top: -26px;
+    left: 252px;
+    z-index: -1;
+}
+
+.about_us_img {
+    background-image: url('../images/about_us.jpg');
+    background-size: cover;
+    height: 414px;
+    width: 440px;
+    margin-left: 69px;
+}
+
+/* about us section ends here*/
+
+/* strategies section starts here*/
+
+.strategies_section {
+    height: 1000px;
+    margin-top: 100px;
+    background-image: url(../images/strategies_bg.jpg);
+    background-size: cover;
+}
+
+.strategies_section_heading {
+    margin-top: 148px;
+}
+
+.strategies_section_heading>h2 {
+    font-size: 43px;
+    letter-spacing: 1.3px;
+}
+
+.strategies_section_img {
+    width: 380px;
+    height: 350px;
+    background-image: url(../images/strategies_img.jpg);
+    background-size: inherit;
+    margin: 4px 0px 0px 49px;
+}
+
+.square {
+    width: 328px;
+    height: 420px;
+    padding-top: 27px;
+    border: 9px solid #e50304;
+}
+
+.strategies_section_content-box {
+    margin-top: 137px;
+}
+
+.strategies_section_ul>li {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-bottom: 10px;
+}
+
+/* strategies section ends here*/
+
+
+/* projects section starts here*/
+
+.projects_section {
+    /* background-image: url(../images/projects_bg_img.jpg);
+    background-size: cover; */
+    height: 1000px;
+    background-color: #282d33;
+    border-radius: 0 0 50% 50% / 50px;
+    /* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
+}
+
+.projects_section_heading {
+    margin-top: 120px;
+}
+
+.projects_section_heading>h2 {
+
+    color: #f8c22c;
+}
+
+.project_content_box {
+
+    margin-top: 150px;
+}
+
+.project_title {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: '';
+}
+.project_image_box1 {
+    background-image: url(../images/project_img2.jpg);
+    background-size: contain;
+    height: 511px;
+    background-repeat: round;
+}
+
+.project_image_box2 {
+    background-image: url(../images/project_img1.jpg);
+    background-size: contain;
+    height: 511px;
+    background-repeat: round;
+}
+
+.project_image_box3 {
+    background-image: url(../images/project_img4.jpg);
+    background-size: contain;
+    height: 511px;
+    background-repeat: round;
+}
+
+.project_image_box4 {
+    background-image: url(../images/project_img3.jpg);
+    background-size: contain;
+    height: 511px;
+    background-repeat: round;
+}
+
+/* projects section ends here*/
+
+/* our team section starts here*/
+
+.our_team_section {
+    height: 900px;
+    margin-bottom: 80px;
+    padding-bottom: 100px;
+}
+
+.our_team_section_heading {
+    margin-top: 130px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    left: 0px;
+    background-color: red;
+    top: 120px;
+    margin-bottom: 0px;
+}
+
+.team_sec_content {
+    height: 300px;
+}
+
+.team_mem_box1 {
+    height: 300px;
+    background-image: url(../images/team_member1.jpg);
+    background-size: cover;
+}
+
+.team_mem_dtl {
+    height: 66px;
+    position: absolute;
+    bottom: 8px;
+    width: 90%;
+    left: 15px;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: rgba(255, 0, 0, 0.6);
+    top: 234px;
+    margin-bottom: 0px;
+}
+
+.team_section_content {
+
+    margin-top: 126px;
+}
+
+/* our team section ends here*/
+
+/* testimonial section starts here*/
+
+.card-text {
+    background-color: transparent;
+}
+
+.testimonial_section {
+    height: 900px;
+    background-image: url(../images/testimonial_bg_img.jpg);
+    background-size: cover;
+}
+
+.testimonial_section_heading {
+    margin-top: 142px;
+}
+
+.slider_box {
+    margin-top: 100px;
+}
+
+/* testimonial section ends here*/
+
+
+/* contact us section starts here*/
+
+.contact_us_section {
+    height: 700px;
+}
+
+.contact_box {
+    margin-top: 200px;
+    background-image: url(../images/contact_us_bg-img.jpg);
+    background-size: cover;
+    height: 300px;
+    padding-top: 79px;
+}
+
+/* contact us section ends here*/
+
+/* footer section starts here*/
+
+.footer_section {
+    height: 422px;
+    background-color: #292c33;
+}
+
+.socials_list {
+    margin-top: 30px;
+}
+
+.socials_list_ul>li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.socials_list_ul>li>a>i {
+    color: #ffffff;
+}
+
+.socials_list_ul>li>a>i:hover {
+    /* color: #0961d0;  */
+    color: rgb(66,103,178);
+    transition: 0.5s;
+
+}
+
+.footer_img_section {
+    height: 300px;
+    background-image: url(../images/footer_img.png);
+    background-size: cover;
+}
+
+.footer_menu_ul > li{
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 27px;
+    margin-right: 24px;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+.footer_menu_ul > li:nth-child(1){
+    border: 3px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+/* footer section ends here*/
+
+
+
+/* ///////////////////////  responsive sections strats here /////////////////////// */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    /* navbar responsive starts */
+.nav_ul{
+    padding-left: 31px;
+}
+/* navbar responsive ends */
+
+/* hero section responsive starts */
+.headingh1{
+    font-size: 3.2vh;
+    padding-top: 58px;
+}
+
+.hero_section {
+    height: auto;
+    background-image: url(../images/bg_hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn_box{
+    margin: 27px 0px 35px 0px !important;
+}
+
+.service_btn{
+    display: none;
+}
+
+.contact_btn{
+    padding: 6px;
+    font-size: 1.9vh;
+}
+/* hero section responsive ends */
+
+/* about us section responsive starts */
+
+.heading2_box {
+    padding-top: 58px;
+}
+
+.headingh2 {
+    font-size: 3.3vh;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    color: #e70304;
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.heading-box {
+    border: none;
+    padding-left: 0px;
+}
+
+.about_us_box {
+    margin-top: 25px;
+}
+
+.about_us_content>p {
+    font-size: 1.9vh;
+    line-height: 1.6;
+    letter-spacing: .06px;
+    text-align: left;
+}
+
+.about_us_content>p:nth-child(1) {
+    margin-bottom: 32px;
+}
+
+.learn_more_btn {
+    border-radius: 0px 0px 0px 0px;
+background-color: transparent;
+border-color: #e40404;
+border-width: 2px;
+color: #e40404;
+margin-top: 8px;
+text-align: left;
+padding: 5px;
+font-size: 1.8vh;
+}
+
+.about_us_img {
+    background-image: url('../images/about_us.jpg');
+    max-width: 100%;
+    background-size:100% auto;
+    margin: 44px 0px 0px 0px;
+
+}
+
+.rectangle {
+    display: none;
+}
+
+/* about us section responsive ends */
+
+/* strategies section responsive starts */
+
+.strategies_section_heading {
+    margin-top: 66px;
+}
+
+.square {
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    border: none;
+}
+
+.strategies_section_img {
+    width: auto;
+    height: 350px;
+    background-image: url(../images/strategies_img.jpg);
+    background-size: auto;
+    margin: 0px;
+}
+
+.strategies_section_content-box {
+    margin-top: 68px;
+}
+
+.strategies_section_ul{
+    padding: 23px 0px 0px 18px;
+
+}
+
+.strategies_section_ul>li {
+    font-size: 1.8vh;
+    line-height: 1.8;
+    padding-bottom: 10px;
+}
+
+/* strategies section responsive ends */
+
+/* projects section responsive starts */
+
+.projects_section {
+    /* background-image: url(../images/projects_bg_img.jpg);
+    background-size: cover; */
+    height: 2528px;
+    background-color: #282d33;
+    border-radius: 0 0 50% 50% / 50px;
+    /* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
+}
+
+/* projects section responsive ends */
+
+
+/* our team section responsive starts */
+
+.our_team_section {
+    height: 1700px;
+    margin-bottom: 80px;
+    padding-bottom: 100px;
+}
+
+.team_mem_box1 {
+    height: 300px;
+    background-image: url(../images/team_member1.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    left: 0px;
+    background-color: red;
+    top: 120px;
+    margin-bottom: 0px;
+}
+
+.team_mem_dtl {
+    width: 92%;
+    height: 66px;
+    position: absolute;
+    top: 234px;
+    left: 15px;
+    bottom: 8px;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: rgba(255, 0, 0, 0.6);
+    margin-bottom: 0px;
+}
+
+/* our team section responsive ends */
+
+/* testimonial section responsive starts here*/
+
+.testimonial_section {
+    height: auto;
+    background-image: url(../images/testimonial_bg_img.jpg);
+    background-size: cover;
+}
+
+.testimonial_section_heading >h2{
+    font-size: 6vh;
+}
+
+.slider_box {
+    margin-top: 10px;
+}
+
+.testimonial_section_heading {
+    margin-top: 116px;
+    margin-bottom: 68px;
+}
+
+/* testimonial section responsive ends here*/
+
+/* contact us section responsive ends here*/
+
+.contact_box {
+    margin-top: 66px;
+    background-image: url(../images/contact_us_bg-img.jpg);
+    background-size: cover;
+    height: 300px;
+    padding-top: 79px;
+}
+
+.contact_us_section {
+    height: 450px;
+}
+
+/* contact us section responsive ends here*/
+
+/* footer section responsive starts here*/
+
+.footer_img_section {
+    height: 200px;
+    background-image: url(../images/footer_img.png);
+    background-size: cover;
+}
+
+.socials_list {
+    margin-top: 8px;
+}
+
+.socials_list_ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.socials_list_ul>li {
+    display: inline-block;
+    margin-left: 24px;
+    padding-right: 0px;
+}
+
+.socials_list_ul>li>a>i {
+    color: #ffffff;
+}
+
+.socials_list_ul>li>a>i:hover {
+    /* color: #0961d0;  */
+    color: rgb(66,103,178);
+    transition: 0.5s;
+
+}
+
+.footer_img_section {
+    height: 71px;
+    background-image: url(../images/footer_img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer_menu_ul > li{
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding-left: 27px;
+    margin-right: 24px;
+    border: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.footer_menu_ul > li:nth-child(1){
+    border: 3px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+/* footer section responsive ends here*/
+
+
+
+
+
+
+
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */
+
+
+/* ///////////////////////  responsive sections ends here /////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
